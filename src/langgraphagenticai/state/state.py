@@ -1,4 +1,4 @@
-from typing_extensions import TypedDict,list
+from typing_extensions import TypedDict,List
 from langgaph.graph.message import add_messages
 from typing import Annotated
 
@@ -8,6 +8,6 @@ class State(TypedDict):
 
     """
 
-    messages: Annotated[list, add_messages]
+    messages: Annotated[List, add_messages]
 
 
